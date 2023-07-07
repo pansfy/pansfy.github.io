@@ -27,7 +27,7 @@ jobs:
           node-version: '16.x'
 
       - name: install and build
-        run: npm install && npm run build
+        run: npm install && npm run docs:build
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
