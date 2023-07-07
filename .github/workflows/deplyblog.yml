@@ -1,20 +1,28 @@
-# .github/workflows/deplyblog.yml
-
-name: Github Pages Publish
+name: Deploy
 
 on:
-  push:
-    branches:
-      - master
+    push:
+        branches:
+            - master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: sterlingwes/gh-pages-deploy-action@v1.1
-        with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          source-directory: docs/.vuepress/dist
-          build-command: npm run docs:build
-          deploy-branch: pansfy/pansfy.github.io
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 16
+                  cache: npm
+            - run: npm install
+
+            - name: Build
+              run: npm run docs:build
+
+            - name: Deploy to GitHub Pages
+              uses: crazy-max/ghaction-github-pages@v2
+              with:
+                  target_branch: gh-pages
+                  build_dir: docs/.vuepress/dist
+              env:
+                  GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
