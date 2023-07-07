@@ -13,16 +13,59 @@ module.exports = {
       { text: 'Python 办公', link: '/python_work/' },
       { text: '网站动态', link: '/other/update.html' }
     ],
-    sidebar: "auto"
+    sidebar: "auto",
+    smoothScroll: true,
+    sidebarDepth: 3,
+    lastUpdated: '上次更新: '
   },
-  plugins: {
-    '@vuepress/back-to-top': true,
-    '@vssue/vuepress-plugin-vssue': {
-      platform: 'github',
-      owner: 'pansfy',
-      repo: 'pansfy.github.io',
-      clientId: '657086bff53f81974752',
-      clientSecret: '614f055c9dc04143b79791c3ec75bbf1715ab558'
+  plugins: [
+    '@vuepress/back-to-top',
+    [
+      '@vssue/vuepress-plugin-vssue',
+      {
+        platform: 'github',
+        owner: 'pansfy',
+        repo: 'pansfy.github.io',
+        clientId: '657086bff53f81974752',
+        clientSecret: '614f055c9dc04143b79791c3ec75bbf1715ab558'
+      }
+    ],
+    ['vuepress-plugin-toolbar', {
+      'pageNav': {
+        icon: 'iconfont iconfont-daohang',
+        name: '导航',
+      },
+      opts: [
+        {
+          icon: 'iconfont iconfont-xiazai',
+          name: '资料下载',
+          popover: {
+            title: '扫码下载阿里网盘提取码：b1g2',
+            type: 'image',
+            imageUrl: 'https://images.pansaifei.com/share_python_work.png'
+          }
+        },
+        {
+          icon: 'iconfont iconfont-jiaoliu',
+          name: '技术交流',
+          popover: {
+            title: '微信号',
+            type: 'image',
+            imageUrl: 'https://images.pansaifei.com/wechat.jpg'
+          }
+        },
+        {
+          icon: 'iconfont iconfont-dashang',
+          name: '支持我',
+          link: '',
+          popover: {
+            title: '微信赞赏码',
+            type: 'image',
+            imageUrl: 'https://images.pansaifei.com/reward.jpg'
+          }
+        }
+      ]
     }
-  }
+    ]
+  ]
 };
