@@ -1,5 +1,11 @@
 # 如何遍历某个目录下所有的 Excel 文件
 
+## 目录结构
+
+![案例目录结构](https://psf-markdown.oss-cn-shanghai.aliyuncs.com/assets/image-20230707141440504.png?x-oss-process=image)
+
+## 实现代码
+
 ```python
 """
 @File    :   traverse_files.py
