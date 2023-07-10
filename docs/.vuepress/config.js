@@ -46,8 +46,17 @@ module.exports = {
           }
         },
         {
+          icon: 'iconfont iconfont-gongzhonghao',
+          name: '公众号',
+          popover: {
+            title: 'Python办公助力站',
+            type: 'image',
+            imageUrl: 'https://images.pansaifei.com/python-work.jpg'
+          }
+        },
+        {
           icon: 'iconfont iconfont-jiaoliu',
-          name: '技术交流',
+          name: '委派他做',
           popover: {
             title: '微信号',
             type: 'image',
