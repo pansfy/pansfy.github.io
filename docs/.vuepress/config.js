@@ -8,6 +8,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: 'AI 助理', link: '/assistant/' },
+      { text: '科学上网', link: 'https://dashboard.zrj333.com/#/register?code=OujBmI53' },
       { text: '生产力工具集', link: '/resources/' },
       { text: 'Python', link: '/python/' },
       { text: 'Python 办公', link: '/python_work/' },
