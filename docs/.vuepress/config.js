@@ -1,18 +1,17 @@
 module.exports = {
   title: "Mr·潘助力站",
-  description: "分享AI资源、Python办公、高效工具等",
+  description: "分享实用性应用、个人博客建站、科学上网、ChatGPT 工具等",
   head: [
     ['link', { rel: 'icon', href: './favicon.png' }]
   ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: 'AI 助理', link: '/assistant/' },
+      { text: '应用坊', link: '/pickapp/' },
       { text: '科学上网', link: 'https://dashboard.zrj333.com/#/register?code=OujBmI53' },
-      { text: '生产力工具集', link: '/resources/' },
-      { text: 'Python', link: '/python/' },
-      { text: 'Python 办公', link: '/python_work/' },
-      { text: '网站动态', link: '/other/update.html' }
+      { text: '建站运维', link: '/devops/' },
+      { text: '镜像站汇聚', link: '/resources/' },
+      { text: 'ChatGPT', link: '/assistant/' },
     ],
     sidebar: "auto",
     smoothScroll: true,
@@ -38,26 +37,17 @@ module.exports = {
       },
       opts: [
         {
-          icon: 'iconfont iconfont-xiazai',
-          name: '资料下载',
-          popover: {
-            title: '扫码下载阿里网盘提取码：b1g2',
-            type: 'image',
-            imageUrl: 'https://images.pansaifei.com/share_python_work.png'
-          }
-        },
-        {
           icon: 'iconfont iconfont-gongzhonghao',
           name: '公众号',
           popover: {
-            title: 'Python办公助力站',
+            title: '应用坊',
             type: 'image',
-            imageUrl: 'https://images.pansaifei.com/python-work.jpg'
+            imageUrl: 'https://psf-markdown.oss-cn-shanghai.aliyuncs.com/assets/image-20231116171900802.png'
           }
         },
         {
           icon: 'iconfont iconfont-jiaoliu',
-          name: '委派他做',
+          name: '合作交流',
           popover: {
             title: '微信号',
             type: 'image',
