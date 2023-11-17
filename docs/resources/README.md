@@ -15,30 +15,26 @@
 
 * **Top 1**：[Tampermonkey（油猴）](https://www.tampermonkey.net/)是一款免费的浏览器扩展和最为流行的用户脚本管理器，海量的脚本，让你做成想做的事。
 * **Top 2**：[沙拉查词](https://saladict.crimx.com/download.html)，是一款专业划词翻译扩展，为交叉阅读而生，再也不用担心不认识的英文单词了。
-* **Top 3**：[iGG谷歌访问助手](https://iguge.app/)，简单 好用的谷歌访问助手，永久免费提供谷歌搜索，gmail，Chrome Store，Android/Golang等谷歌产品加速访问。
-* **Top 4**：[AdGuard](https://adguard.com/zh_cn/adguard-browser-extension/overview.html)，是一款功能强大堪称完美的广告拦截插件，可以拦截所有浏览器上的广告!各种视频广告、弹窗内容也是可以正常拦截的，它几乎是超越一切广告拦截软件的存在，不会对你浏览网页或者看视频造成任何不良影响。
-* **Top 5**：[OneTab](https://www.one-tab.com/)，是一款可以帮助用户一键杀死浏览器中所有标签页并通过提示恢复部分有用标签页的浏览器插件。
+* **Top 3**：[AdGuard](https://adguard.com/zh_cn/adguard-browser-extension/overview.html)，是一款功能强大堪称完美的广告拦截插件，可以拦截所有浏览器上的广告!各种视频广告、弹窗内容也是可以正常拦截的，它几乎是超越一切广告拦截软件的存在，不会对你浏览网页或者看视频造成任何不良影响。
+* **Top 4**：[OneTab](https://www.one-tab.com/)，是一款可以帮助用户一键杀死浏览器中所有标签页并通过提示恢复部分有用标签页的浏览器插件。
 
 ## 3. 强力搜索引擎
 
-* **Top 1**：[Google](https://www.google.com/)，互联网上最大、影响最广泛的搜索引擎。
-* **Top 2**：[百度](https://www.baidu.com)，众里寻他千百度。
-* **Top 3**：[Lookao](https://lookao.com/)，本来无一物，何处惹尘埃。
-* **Top 4**：[秘迹](https://mijisou.com/)，一款守护用户搜索信息的聚合搜索引擎。
-* **Top 5**：[Magi](https://magi.com/)，一个全新的自然语言搜索引擎+知识图谱服务。
-* **Top 6**：[Qwant](https://www.qwant.com/)，“我们为您检索一切，除了你是谁”。
-* **Top 7**：[Swisscows](https://swisscows.com/)，让你的搜索有生命。
-* **Top 8**：[茶杯狐](https://www.cupfox.com/)，努力让「搜电影」这件事情变得简单。
+* **Top 1**：[Google(需科学)](https://www.google.com/)，互联网上最大、影响最广泛的搜索引擎。
+* **Top 2**：[百度](https://www.baidu.com)，众里寻他千百度，国内最通用的搜索引擎。
+* **Top 3**：[Bing](https://cn.bing.com/)，全球领先的搜索引擎之一，北美地区第二大搜索引擎。
+* **Top 4**：[Qwant(需科学)](https://www.qwant.com/)，“我们为您检索一切，除了你是谁”。
 
 ## 4. 老司机部落
 
 * **Top 1**：[虫部落*快搜](https://search.chongbuluo.com/)，你所需的一切，应有尽有。
-* **Top 2**：[小蜜蜂在线电子书](http://cn.epubee.com/)，全球最大的免费电子书库,超过10万本书籍，50万个文件版本，总能找到你喜欢的适合阅读器的电子书文件。
+* **Top 2**：[大师兄导航](https://dsxdh.com/)，找网站更简单。
 * **Top 3**：[Iconfont](https://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2)，阿里妈妈MUX倾力打造的矢量图标管理平台。
-* **Top 4**：[GitHub](https://github.com/)，是一个基于Git的源代码托管服务的平台，当前全球最大的、属于程序员的基友社区。
-* **Top 5**：[Stack Overflow](https://stackoverflow.com/)，一个最好的软件类问答网站，给软件开发人员工作和学习提供了非常大的便利。
+* **Top 4**：[GitHub](https://github.com/)，一个面向开源及私有软件项目的托管平台，当前全球最大的、属于程序员的基友社区。
+* **Top 5**：[Gitee](https://gitee.com/)，开源中国推出的基于Git的代码托管服务，提供免费的私有仓库托管，是中国境内规模最大的代码托管平台。
+* **Top 6**：[Stack Overflow](https://stackoverflow.com/)，一个最好的软件类问答网站，给软件开发人员工作和学习提供了非常大的便利。
 
-## 5. 国内镜像库
+## 5. 国内综合镜像库
 
 * **Top 1**：[清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirror.tuna.tsinghua.edu.cn/)
 * **Top 2**：[浙江大学开源镜像站 (zju.edu.cn)](http://mirrors.zju.edu.cn/)
@@ -48,7 +44,7 @@
 * **Top 6**：[欢迎访问网易开源镜像站 (163.com)](http://mirrors.163.com/)
 * **Top 7**：[DaoCloud | Docker 极速下载](http://get.daocloud.io/)
 
-## 6. Docker 镜像库
+## 6. 国内 Docker 镜像仓库
 ```bash
 cat>/etc/docker/daemon.json<<EOF
 {

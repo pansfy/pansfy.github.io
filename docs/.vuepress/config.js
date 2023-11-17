@@ -10,7 +10,7 @@ module.exports = {
       { text: '应用坊', link: '/pickapp/' },
       { text: '科学上网', link: 'https://dashboard.zrj333.com/#/register?code=OujBmI53' },
       { text: '建站运维', link: '/devops/' },
-      { text: '镜像站汇聚', link: '/resources/' },
+      { text: '资源站分享', link: '/resources/' },
       { text: 'ChatGPT', link: '/assistant/' },
     ],
     sidebar: "auto",
