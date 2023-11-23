@@ -1,7 +1,7 @@
 # 运维建站
 
 ## 虚拟机系统安装篇
-1. [虚拟机大全](./vm-list)
+1. [虚拟机安装](./vm-list)
 2. [虚拟机软件中安装 Windows 系统](./vm-windows)
 3. [虚拟机软件中安装 CentOS 系统](./vm-centos)
 4. [虚拟机软件中安装 Ubuntu 系统](./vm-ubuntu)
