@@ -29,43 +29,6 @@ module.exports = {
         clientId: '657086bff53f81974752',
         clientSecret: '614f055c9dc04143b79791c3ec75bbf1715ab558'
       }
-    ],
-    ['vuepress-plugin-toolbar', {
-      'pageNav': {
-        icon: 'iconfont iconfont-daohang',
-        name: '导航',
-      },
-      opts: [
-        {
-          icon: 'iconfont iconfont-gongzhonghao',
-          name: '公众号',
-          popover: {
-            title: '应用坊',
-            type: 'image',
-            imageUrl: 'https://psf-markdown.oss-cn-shanghai.aliyuncs.com/assets/image-20231116171900802.png'
-          }
-        },
-        {
-          icon: 'iconfont iconfont-jiaoliu',
-          name: '合作交流',
-          popover: {
-            title: '微信号',
-            type: 'image',
-            imageUrl: 'https://images.pansaifei.com/wechat.jpg'
-          }
-        },
-        {
-          icon: 'iconfont iconfont-dashang',
-          name: '支持我',
-          link: '',
-          popover: {
-            title: '微信赞赏码',
-            type: 'image',
-            imageUrl: 'https://images.pansaifei.com/reward.jpg'
-          }
-        }
-      ]
-    }
     ]
   ]
 };
