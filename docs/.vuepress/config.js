@@ -8,7 +8,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '应用坊', link: '/pickapp/' },
-      { text: '科学上网', link: 'https://dashboard.zrj222.xyz/#/register?code=OujBmI53' },
+      { text: '科学上网', link: 'https://hizrj.xyz/user/register?code=OujBmI53' },
       { text: '科学上网备', link: 'https://dashboard.zrj97.xyz/#/register?code=OujBmI53' },
       { text: '建站运维', link: '/devops/' },
       { text: '资源站分享', link: '/resources/' },
