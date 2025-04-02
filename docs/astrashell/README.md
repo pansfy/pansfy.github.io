@@ -30,7 +30,7 @@ PowerShell 工具集，用 PowerShell 让你的工作更智能。
   - [Gitee AstraShell](https://gittee.com/pansfy/AstraShell)：Gitee 仓库，国内使用友好
 
 - 右击文件，选择`使用 PowerShell` 运行
-![](https://gitee.com/pansfy/AstraShell/raw/main/asserts/excute.png)
+![](../excute.png)
 
 - 运行效果
-![](https://gitee.com/pansfy/AstraShell/raw/main/asserts/ok.png)
+![](../ok.png)
