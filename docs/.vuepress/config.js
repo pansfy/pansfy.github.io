@@ -1,18 +1,16 @@
 module.exports = {
-  title: "Mr·潘助力站",
-  description: "分享实用性应用、个人博客建站、科学上网、ChatGPT 工具等",
+  title: "AstraShell 官方站",
+  description: "分享 PowerShell 工具集、科学上网、各类加速镜像、浏览器插件等各种资源",
   head: [
     ['link', { rel: 'icon', href: './favicon.png' }]
   ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '应用坊', link: '/pickapp/' },
-      { text: '科学上网', link: 'https://hizrj.xyz/user/register?code=OujBmI53' },
-      { text: '科学上网备', link: 'https://dashboard.zrj97.xyz/#/register?code=OujBmI53' },
-      { text: '建站运维', link: '/devops/' },
-      { text: '资源站分享', link: '/resources/' },
-      { text: 'ChatGPT', link: '/assistant/' },
+      { text: 'AstraShell', link: '/astrashell/' },
+      { text: '科学上网', link: 'https://dashboard.zrj97.xyz/#/register?code=OujBmI53' },
+      { text: '科学上网备', link: 'https://dashboard.zrj222.xyz/#/register?code=OujBmI53' },
+      { text: '资源站分享', link: '/resources/' }
     ],
     sidebar: "auto",
     smoothScroll: true,
