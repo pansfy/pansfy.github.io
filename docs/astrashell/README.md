@@ -15,13 +15,23 @@ PowerShell 工具集，用 PowerShell 让你的工作更智能。
   - PDF 检测安装
   - 图片查看器 检测安装
 
-- Python 环境一键部署：`python-prepare.ps1`
+- Python 环境一键部署：`python3-prepare.ps1`
   - Python 环境检测安装
   - PyCharm 开发环境检测安装
+
+- VSCode 环境一键部署：`vscode-prepare.ps1`
+  - VSCode 环境检测安装
+  - VSCode 常用扩展检测安装
 
 - JMeter 环境一键部署：`jmeter-prepare.ps1`
   - JDK 环境检测安装
   - JMeter 环境检测安装
+
+- Appium 环境一键部署：`appium-prepare.ps1`
+  - Node 环境检测安装
+  - OpenJDK 环境检测安装
+  - Andriod SDK 环境检测安装
+  - Python 环境检测安装
 
 ### 运行方式
 
@@ -30,7 +40,9 @@ PowerShell 工具集，用 PowerShell 让你的工作更智能。
   - [Gitee AstraShell](https://gittee.com/pansfy/AstraShell)：Gitee 仓库，国内使用友好
 
 - 右击文件，选择`使用 PowerShell` 运行
+
 ![](./excute.png)
 
 - 运行效果
+
 ![](./ok.png)
